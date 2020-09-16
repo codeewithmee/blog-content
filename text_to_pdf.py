@@ -4,8 +4,8 @@
 from fpdf import FPDF 
 from argparse import ArgumentParser
 
-parser = ArgumentParser(description="dvwa_VULN_ IN command_injection",epilog="""This is a description usage
-   python3 text_to_pdf.py -f  -o """)
+parser = ArgumentParser(description="CONVERT TEXT TO PDF",epilog="""This is a description usage
+   python3 text_to_pdf.py -f <filename>  -o <output filename>""")
 
 req_parser = parser.add_argument_group('Required Argument')
 
