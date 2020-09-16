@@ -12,10 +12,10 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
 	smtp.ehlo()
 	smtp.login(EMAIL_ADDRESS,EMAIL_PASSWORD)
 
-	subject = 'Grab dinner this weekned'
-	body = 'hello world prabhakaran'
+	subject = 'hello'
+	body = 'hello world'
 
 
 	msg = f'Subject: {subject}\n\n{body}'
-	smtp.sendmail(EMAIL_ADDRESS,'beginnerm37@gmail.com', msg)
+	smtp.sendmail(EMAIL_ADDRESS,'receivermail@gmail.com', msg)
 
