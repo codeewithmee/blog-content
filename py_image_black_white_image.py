@@ -2,7 +2,7 @@ from PIL import Image
 from argparse import ArgumentParser
 
 parser = ArgumentParser(description="Convert image to black and white image using python",epilog="""This is a description usage
-    python """)
+    python py_image_black_white_image.py  -i images.jpeg -o bb.jpeg""")
 
 req_parser = parser.add_argument_group('Required Argument')
 
